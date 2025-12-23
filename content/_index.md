@@ -50,7 +50,7 @@ sections:
         Feel free to reach out to collaborate! 😃
 
         <div class="mt-8 grid gap-4 md:grid-cols-3">
-          <div class="rounded-2xl bg-gradient-to-br from-primary-600 via-indigo-500 to-secondary-500 text-white shadow-xl ring-1 ring-primary-200/40 p-5">
+          <div class="rounded-2xl bg-gradient-to-br from-primary-600 via-primary-500 to-secondary-500 text-white shadow-xl ring-1 ring-primary-200/40 p-5">
             <div class="text-lg font-semibold flex items-center gap-2">⚡ Applied Research</div>
             <p class="text-sm opacity-90 mt-2">Temporal reasoning, multilingual alignment, and robust evaluation pipelines for real-world LLM deployments.</p>
           </div>
@@ -142,6 +142,6 @@ sections:
     design:
       card:
         # Card background color (CSS class)
-        css_class: 'bg-gradient-to-r from-primary-600 via-indigo-500 to-secondary-500 text-white shadow-2xl'
+        css_class: 'bg-gradient-to-r from-primary-600 via-primary-500 to-secondary-500 text-white shadow-2xl'
         css_style: ''
 ---
