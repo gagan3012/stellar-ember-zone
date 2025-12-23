@@ -37,9 +37,9 @@ hugoblox:
     pack: "default"
     # Optional: Override theme pack colors
     colors:
-      primary: ""                       # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
-      secondary: ""
-      neutral: ""                       # Affects gray utilities (text-gray-*, bg-gray-*)
+      primary: "#7c3aed"                       # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
+      secondary: "#06b6d4"
+      neutral: "slate"                       # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
     colors_light: {}
     colors_dark: {}
@@ -70,9 +70,9 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   layout:
     # Border radius: 'none', 'sm', 'md', 'lg', or 'full'
-    radius: "md"
+    radius: "lg"
     # Spacing density: 'compact', 'comfortable', or 'spacious'
-    spacing: "comfortable"
+    spacing: "spacious"
     # Avatar shape in author profiles
     avatar_shape: circle                # circle | square | rounded
 
@@ -95,9 +95,9 @@ hugoblox:
     language_switcher: true
     # Call-to-action button
     cta:
-      enable: false
-      text: ""
-      url: ""
+      enable: true
+      text: "Download CV"
+      url: "/uploads/resume.pdf"
 
   # ────────────────────────────────────────────────────────────────────────────
   # FOOTER

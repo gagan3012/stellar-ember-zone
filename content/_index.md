@@ -13,7 +13,7 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
-      text: ''
+      text: 'Designing thoughtful, human-centered AI systems that pair scientific rigor with beautiful, confident storytelling.'
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
@@ -48,6 +48,21 @@ sections:
         I'm passionate about making AI systems more interpretable, reliable, and accessible across languages and cultures.
 
         Feel free to reach out to collaborate! 😃
+
+        <div class="mt-8 grid gap-4 md:grid-cols-3">
+          <div class="rounded-2xl bg-gradient-to-br from-primary-600 via-indigo-500 to-secondary-500 text-white shadow-xl ring-1 ring-primary-200/40 p-5">
+            <div class="text-lg font-semibold flex items-center gap-2">⚡ Applied Research</div>
+            <p class="text-sm opacity-90 mt-2">Temporal reasoning, multilingual alignment, and robust evaluation pipelines for real-world LLM deployments.</p>
+          </div>
+          <div class="rounded-2xl bg-white/80 dark:bg-slate-900/70 border border-white/60 dark:border-slate-800 shadow-lg backdrop-blur p-5">
+            <div class="text-lg font-semibold flex items-center gap-2 text-primary-700 dark:text-primary-200">🎛️ Systems Craft</div>
+            <p class="text-sm text-slate-700 dark:text-slate-200 mt-2">Agentic frameworks, scalable training stacks, and disciplined MLOps to keep experiments reproducible.</p>
+          </div>
+          <div class="rounded-2xl bg-gradient-to-tr from-secondary-500 via-cyan-500 to-emerald-400 text-slate-950 shadow-xl ring-1 ring-secondary-200/50 p-5">
+            <div class="text-lg font-semibold flex items-center gap-2">🌍 Impact</div>
+            <p class="text-sm opacity-90 mt-2">Accessible AI for healthcare, finance, and education with a focus on multilingual users and responsible releases.</p>
+          </div>
+        </div>
     design:
       columns: '1'
   - block: collection
@@ -60,7 +75,7 @@ sections:
         featured_only: true
     design:
       view: article-grid
-      columns: 2
+      columns: 3
   - block: collection
     content:
       title: Recent Publications
@@ -127,6 +142,6 @@ sections:
     design:
       card:
         # Card background color (CSS class)
-        css_class: 'bg-primary-300 dark:bg-primary-700'
+        css_class: 'bg-gradient-to-r from-primary-600 via-indigo-500 to-secondary-500 text-white shadow-2xl'
         css_style: ''
 ---
