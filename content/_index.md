@@ -38,14 +38,16 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '🔬 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I'm an AI Research Scientist working on improving Large Language Models through better understanding of their limitations and capabilities. My research focuses on temporal reasoning in LLMs, multilingual AI systems, and developing robust evaluation frameworks.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        My work spans multiple domains including Arabic NLP, multimodal AI, and building efficient systems for real-world applications in healthcare and finance.
 
-        Please reach out to collaborate 😃
+        I'm passionate about making AI systems more interpretable, reliable, and accessible across languages and cultures.
+
+        Feel free to reach out to collaborate! 😃
     design:
       columns: '1'
   - block: collection
