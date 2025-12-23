@@ -60,7 +60,7 @@ experience:
     start: 2025-03-01
     end: 2025-10-31
     summary: |
-      Designed and built a Python-based framework using PyTorch to systematically evaluate temporal reasoning failures in LLMs, identifying date tokenisation as a primary bottleneck. Implemented attention-based interpretability methods and designed Agentic AI frameworks for data extraction.
+      Designed and built a Python-based framework using PyTorch to systematically evaluate temporal reasoning failures in LLMs, identifying date tokenization as a primary bottleneck. Implemented attention-based interpretability methods and designed Agentic AI frameworks for data extraction.
   - role: Research Assistant
     org: University of British Columbia
     start: 2022-09-01
