@@ -12,7 +12,7 @@ publishDate: '2025-04-01T00:00:00Z'
 
 publication_types: ['paper-conference']
 
-publication: In *Annual Conference of the North American Chapter of the Association for Computational Linguistics: Student Research Workshop (NAACL SRW 2025)*
+publication: 'In Annual Conference of the North American Chapter of the Association for Computational Linguistics: Student Research Workshop (NAACL SRW 2025)'
 publication_short: In *NAACL 2025*
 
 abstract: DateLogicQA introduces a comprehensive benchmark for evaluating temporal biases and reasoning capabilities in Large Language Models. This benchmark systematically tests LLMs on various temporal reasoning tasks to identify failure patterns.
