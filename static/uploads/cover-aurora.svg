@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="auroraGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0ea5e9" />
+      <stop offset="50%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#14b8a6" />
+    </linearGradient>
+    <radialGradient id="glow" cx="30%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0b1224" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="#0b1224" />
+  <rect width="1600" height="900" fill="url(#auroraGradient)" opacity="0.35" />
+  <circle cx="400" cy="200" r="420" fill="url(#glow)" />
+  <circle cx="1300" cy="180" r="380" fill="url(#glow)" transform="rotate(12 1300 180)" />
+  <circle cx="900" cy="720" r="420" fill="url(#auroraGradient)" opacity="0.35" />
+</svg>

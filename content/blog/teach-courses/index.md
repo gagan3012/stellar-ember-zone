@@ -12,7 +12,7 @@ tags:
 image:
   caption: 'Embed rich media such as videos and LaTeX math'
 cover:
-  image: "https://images.unsplash.com/photo-1557682250-33bd709cbe85?q=80&w=2560"
+  image: "/uploads/cover-aurora.svg"
   position:
     x: 50
     y: 40
